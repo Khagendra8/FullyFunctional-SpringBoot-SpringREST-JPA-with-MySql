@@ -1,0 +1,47 @@
+Github link = https://github.com/Java-Techie-jt/spring-boot-crud-example
+
+
+1)POST---> http://localhost:9191/addProduct
+	{
+	"name":"mobile",
+	"quantity":1,
+	"price":15000
+	}
+	
+2)POST---> http://localhost:9191/addProducts
+
+	[{
+	"name":"mobile",
+	"quantity":1,
+	"price":15000
+	},
+    {
+    "name":"earphone",
+	"quantity":8,
+	"price":2000
+    },
+	{
+    "name":"Mouse",
+	"quantity":5,
+	"price":3000
+	}
+    ]
+    
+    
+3)GET---> http://localhost:9191/products  
+
+4)GET BY ID---> http://localhost:9191/productById/4  
+  
+5)GET BY NAME---> http://localhost:9191/product/laptop 
+
+6)PUT---> http://localhost:9191/update
+
+	Request Structure  --->
+	  {
+        "id":5,
+        "name": "laptop",
+        "quantity": 14,
+        "price":200000
+      }
+7)DELETE---> http://localhost:9191/delete/5
+	Response - product removed !! 5      
