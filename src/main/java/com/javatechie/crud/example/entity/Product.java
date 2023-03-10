@@ -22,7 +22,7 @@ public class Product {
     private String name;
     private int quantity;
     private double price;
-	public Product(int id, String name, int quantity, double price) {
+	/*public Product(int id, String name, int quantity, double price) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -32,8 +32,9 @@ public class Product {
 	public Product() {
 		super();
 		// TODO Auto-generated constructor stub
-	}
-	public int getId() {
+	}*/
+
+	/*public int getId() {
 		return id;
 	}
 	public void setId(int id) {
@@ -56,7 +57,7 @@ public class Product {
 	}
 	public void setPrice(double price) {
 		this.price = price;
-	}
+	}*/
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", quantity=" + quantity + ", price=" + price + "]";
